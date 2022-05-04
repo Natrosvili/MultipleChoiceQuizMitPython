@@ -1,9 +1,9 @@
 SCORE = 0
-FRAGEN = "3"
+FRAGEN = 3
 
 print("Hallo! Willkommen zum multiple Choice Quiz")
 print("FRAGE Nu.1:")
-ant1 = input("welches Handy habe ich ?\na. Huawei\nb .Samsung\nc. Xiaomi\nd. Iphone\nAntwort:")
+ant1 = input("welches Handy habe ich ?\na. Huawei\nb. Samsung\nc. Xiaomi\nd. Iphone\nAntwort:")
 if ant1 == "c" or ant1 == "Xiaomi" or ant1 == "xiaomi":
     SCORE += 1
     print("Richtig!")
